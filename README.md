@@ -32,5 +32,5 @@ sudo
 sudo ln -s /opt/tomcat9/bin/startup.sh /usr/bin/starttomcat2
 sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
 sudo chmod 777 -R /opt/tomcat9
-starttomcat
+sudo starttomcat
 ```

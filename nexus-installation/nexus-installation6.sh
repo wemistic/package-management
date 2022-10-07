@@ -11,7 +11,7 @@ useradd nexus
 #4 Give sudo access to nexus user
 
 sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
-sudo su - sonar
+sudo su - nexus
 
 cd /opt
 
@@ -55,8 +55,8 @@ echo "end of nexus installation"
 =====================
 access nexus on the browser
 34.229.62.93:8081
-userName  --- ADMIN
-Password   ADMIN123
+userName  --- admin
+Password   admin123
 
 <<Troubleshooting
 ---------------------
